@@ -1,7 +1,7 @@
 
 # Titanic Survival Prediction
 
-![Titanic Survival]([images/Titanic Survival.png](https://github.com/Soumyabk3/CODSOFT_Titanic_Survival_Prediction_Task1/blob/main/Titanic%20Survival.png?raw=true))
+![Titanic Survival](https://github.com/Soumyabk3/CODSOFT_Titanic_Survival_Prediction_Task1/blob/main/Titanic%20Survival.png?raw=true)
 
 ## Overview
 
