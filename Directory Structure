@@ -1,7 +1,6 @@
 titanic-survival-prediction/
 │
-├── images/
-│   └── Titanic Survival.png
+├── Titanic Survival.png  
 ├── README.md
 ├── titanic_survival_prediction.py
 ├── requirements.txt
