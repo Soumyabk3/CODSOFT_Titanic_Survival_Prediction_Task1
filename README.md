@@ -82,7 +82,9 @@ Here is the combined script for all steps:
 ```
 
 ### For macOS/Linux:
-### source venv/bin/activate
+```bash
+source venv/bin/activate
+```
 
 #### Step 3: Install the required packages
 
@@ -91,14 +93,11 @@ Here is the combined script for all steps:
 ```
 
 ```bash
-  pip install numpy pandas matplotlib seaborn scikit-learn ipython
+  pip freeze
 ```
 
 
-
-###### Resulting requirements.txt
-
-### After running the above commands, your requirements.txt file will include entries similar to these (exact versions may vary):
+### After running the above commands, file will include entries similar to these (exact versions may vary):
 
 ```bash
 ipython==8.4.0
