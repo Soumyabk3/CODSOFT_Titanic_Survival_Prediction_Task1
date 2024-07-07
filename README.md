@@ -25,7 +25,7 @@ Install the necessary dependencies.
 ## For Example
 ## Installation
 
-To install the specified packages (numpy, pandas, matplotlib, seaborn, scikit-learn, and ipython) and generate a requirements.txt file, follow these steps:
+To install the specified packages (numpy, pandas, matplotlib, seaborn, scikit-learn, and ipython) , follow these steps:
 
 
 1. *Set up a Virtual Environment*:
@@ -59,13 +59,6 @@ source venv/bin/activate
 
  
 
-4. *Generate the requirements.txt File**:
-
-```bash
-   pip freeze > requirements.txt
-```   
-  
- ---  
 
 ## Combined Script
 
@@ -101,11 +94,6 @@ Here is the combined script for all steps:
   pip install numpy pandas matplotlib seaborn scikit-learn ipython
 ```
 
-### Step 4: Generate the requirements.txt file
-```bash
-  pip freeze > requirements.txt
-```
-
 
 
 ###### Resulting requirements.txt
@@ -113,22 +101,12 @@ Here is the combined script for all steps:
 ### After running the above commands, your requirements.txt file will include entries similar to these (exact versions may vary):
 
 ```bash
- txt
 ipython==8.4.0
 matplotlib==3.5.2
 numpy==1.22.4
 pandas==1.4.2
 scikit-learn==1.1.1
 seaborn==0.11.2
-```
-
-
-
-This file ensures that the same versions of these packages can be installed in any environment by running:
-
-
-```bash
-pip install -r requirements.txt
 ```
 
 
